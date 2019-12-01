@@ -8,6 +8,7 @@ class CalculatorCore {
         this.expression = expression
         this.replaceKeys = {
             'π': 'PI',
+            '√': 'SQRT'
         }
     }
 

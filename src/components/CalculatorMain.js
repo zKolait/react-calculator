@@ -14,6 +14,7 @@ class CalculatorMain extends React.Component {
         message: '',
         value: '',
         active: false,
+        ans: ''
     }
 
 
@@ -22,6 +23,28 @@ class CalculatorMain extends React.Component {
     onPadClick = (arg) => {
         // Set new expression
         let expression = this.state.expression + `${arg}`
+
+        // Update state
+        this.setState({
+            expression,
+            value: '',
+            message: '',
+            active: false
+        })
+    }
+
+
+
+    // On pad click
+    onAns = () => {
+        // Set new expression
+        let expression
+
+        if (this.state.value !== '') {
+            expression = this.state.ans
+        } else {
+            expression = this.state.expression + this.state.ans
+        }
 
         // Update state
         this.setState({
@@ -45,13 +68,14 @@ class CalculatorMain extends React.Component {
                 expression: response.expression,
                 message: response.message,
                 value: response.value,
-                active: true
+                active: true,
+                ans: response.value
             })
         // Error
         } else {
             this.setState({
                 message: response.message,
-                value: '',
+                value: 'ERROR',
                 active: true
             })
         }
@@ -60,10 +84,36 @@ class CalculatorMain extends React.Component {
 
 
     // On pad click
-    onClear = () => {
+    onDelete = () => {
+        // Delete one character
+        let length = this.state.expression.length - 1
+        let expression = ''
+
+        // Remove x character from string
+        if (this.state.expression[length] == 'N' || this.state.expression[length] == 'S') {
+            expression = this.state.expression.slice(0, -3)
+        } else {
+            expression = this.state.expression.slice(0, -1)
+        }
+
         // Update state
         this.setState({
-            expression: '',
+            expression,
+            value: '',
+            active: false
+        })
+    }
+
+
+
+    // On pad click
+    onClear = () => {
+        // Delete expression
+        let expression = ''
+
+        // Update state
+        this.setState({
+            expression,
             value: '',
             active: false
         })
@@ -86,7 +136,9 @@ class CalculatorMain extends React.Component {
                 <CalculatorPad
                     onSubmit={(e) => this.onSubmit(e)}
                     onPadClick={this.onPadClick}
+                    onDelete={this.onDelete}
                     onClear={this.onClear}
+                    onAns={this.onAns}
                 />
             </React.Fragment>
         )
