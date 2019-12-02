@@ -90,7 +90,7 @@ class CalculatorMain extends React.Component {
         let expression = ''
 
         // Remove x character from string
-        if (this.state.expression[length] == 'N' || this.state.expression[length] == 'S') {
+        if (this.state.expression[length] === 'N' || this.state.expression[length] === 'S') {
             expression = this.state.expression.slice(0, -3)
         } else {
             expression = this.state.expression.slice(0, -1)
