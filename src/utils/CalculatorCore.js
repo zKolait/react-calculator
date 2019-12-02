@@ -1,7 +1,8 @@
 import { Calculator } from 'antlr-calculator';
 
 
-class CalculatorCore {
+// Calculator class
+export default class CalculatorCore {
     // Constructor
     constructor(expression = '') {
         // Expression
@@ -57,13 +58,4 @@ class CalculatorCore {
 
         return expression
     }
-
-
-
-
 }
-
-
-
-// Export Calculator
-export default CalculatorCore

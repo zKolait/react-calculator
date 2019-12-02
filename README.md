@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple calculator (material ui style) made with react,
+
+This project includes multiples components, cases of internal state management and component test.
+OOP Calculator Class, Code is easy to read so you can learn from it.
+
+## Installation 
+### yarn
+### yarn start
+
+Ready to go !
+
+
 
 ## Available Scripts
 

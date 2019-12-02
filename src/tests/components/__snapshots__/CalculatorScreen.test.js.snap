@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render calculator screen 1`] = `
+<div
+  className="calculator-displayer"
+>
+  <p
+    className="calculator-expression"
+  >
+    1+2
+  </p>
+  <p
+    className="calculator-value"
+  >
+    3
+  </p>
+</div>
+`;

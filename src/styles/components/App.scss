@@ -19,7 +19,7 @@ body {
         border-radius: 12px;
 
         &:after {
-            bottom: -15px;
+            bottom: -10px;
             position: absolute;
             z-index: -10;
             content: "";
@@ -28,5 +28,6 @@ body {
             background: #BDBDBD;
             border-radius: 24px;
         }
+
     }
 }

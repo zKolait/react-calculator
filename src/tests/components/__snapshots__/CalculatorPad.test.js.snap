@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render CalculatorPad correctly 1`] = `
+<div
+  className="calculator-pad-container"
+>
+  <div
+    className="calculator-pad-item ans"
+    onClick={[Function]}
+  >
+    <p>
+      ANS
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item"
+  />
+  <div
+    className="calculator-pad-item clear"
+    onClick={[Function]}
+  >
+    <p>
+      CE
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item clear-all"
+    onClick={[Function]}
+  >
+    <p>
+      C
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number simulate"
+    onClick={[Function]}
+  >
+    <p>
+      7
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      8
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      9
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      ^
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      4
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      5
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      6
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      *
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      1
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      2
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      3
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      /
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      √
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item number"
+    onClick={[Function]}
+  >
+    <p>
+      0
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      +
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      -
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      (
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      )
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item symbol"
+    onClick={[Function]}
+  >
+    <p>
+      .
+    </p>
+  </div>
+  <div
+    className="calculator-pad-item result"
+    onClick={[Function]}
+  >
+    <p>
+      =
+    </p>
+  </div>
+</div>
+`;

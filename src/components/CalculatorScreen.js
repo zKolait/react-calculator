@@ -1,19 +1,19 @@
 import React from 'react'
 
 
-
-class CalculatorScreen extends React.Component {
+// Component
+export default class CalculatorScreen extends React.Component {
     // Render
     render () {
         return (
             <div className="calculator-displayer">
                 <p 
-                    className={"calculator-expression " + ( !this.props.active ? "active" : "" ) }
+                    className="calculator-expression"
                 >
                     {this.props.expression}
                 </p>
                 <p 
-                    className={"calculator-value " + ( this.props.active ? "active" : "" ) }
+                    className="calculator-value"
                 >
                     {this.props.value}
                 </p>
@@ -21,8 +21,3 @@ class CalculatorScreen extends React.Component {
         )
     }
 }
-
-
-
-
-export default CalculatorScreen

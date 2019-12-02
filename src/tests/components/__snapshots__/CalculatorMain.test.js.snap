@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render CalculatorMain correctly 1`] = `
+<Fragment>
+  <div
+    className="calculator--display--container"
+  >
+    <CalculatorScreen
+      active={false}
+      expression=""
+      message=""
+      value=""
+    />
+  </div>
+  <CalculatorPad
+    onAns={[Function]}
+    onClear={[Function]}
+    onDelete={[Function]}
+    onPadClick={[Function]}
+    onSubmit={[Function]}
+  />
+</Fragment>
+`;

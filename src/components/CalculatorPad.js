@@ -2,8 +2,9 @@ import React from 'react'
 
 
 
-
+// Component
 class CalculatorPad extends React.Component {
+    // Render
     render () {
         return (
             <div className="calculator-pad-container">
@@ -19,7 +20,7 @@ class CalculatorPad extends React.Component {
                     <p>C</p>
                 </div>
 
-                <div className="calculator-pad-item number" onClick={() => this.props.onPadClick('7')}>
+                <div className="calculator-pad-item number simulate" onClick={() => this.props.onPadClick('7')}>
                     <p>7</p>
                 </div>
                 <div className="calculator-pad-item number" onClick={() => this.props.onPadClick('8')}>
